@@ -31,7 +31,7 @@
 5. 点击 **Train Model** 开始训练
 6. 获取模型 ID（如 `your_model_id/1`）用于推理
 
-> 注意：Roboflow 上传时会自动过滤部分图像，所以最终我的classification_model文件是在项目页面点击 **Download**，选择 `Download zip to computer` 下载已处理的数据集。
+> 注意：Roboflow 上传时会自动过滤部分图像，所以最终我的classification_dataset文件是在项目页面点击 **Download**，选择 `Download zip to computer` 下载已处理的数据集。
 
 ---
 
