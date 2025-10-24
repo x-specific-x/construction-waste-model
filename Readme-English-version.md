@@ -22,17 +22,17 @@ The classification categories are based on the **Hong Kong Environmental Protect
 ## **Recyclable Construction Waste Categories**
 
 | **Chinese Category** | **English Label (for Model)** |
-| :------------------: | :---------------------------: |
-|          玻璃          |            `glass`            |
-|     公众填料（瓦砾及混凝土）     |         `public_fill`         |
-|          金属          |            `metal`            |
-|          沥青          |           `asphalt`           |
-|          煤灰          |      `pulverized_fue_ash`     |
-|         泡沫塑料         |     `expanded_polystyrene`    |
-|          塑胶          |           `plastic`           |
-|         碎石骨料         |          `aggregate`          |
-|          挖掘料         |     `excavated_materials`     |
-|          橡胶          |            `rubber`           |
+| :----------: | :--------------------: |
+|      玻璃      |         `glass`        |
+| 公眾填料（瓦礫及混凝土） |      `public_fill`     |
+|      金屬      |         `metal`        |
+|      瀝青      |        `asphalt`       |
+|      煤灰      |  `pulverized_fue_ash`  |
+|     泡沫塑膠     | `expanded_polystyrene` |
+|      塑膠      |        `plastic`       |
+|     碎石骨料     |       `aggregate`      |
+|      挖掘料     |  `excavated_materials` |
+|      橡膠      |        `rubber`        |
 
 
 Each category includes **~50 crawled images**, which were uploaded to **Roboflow** for preprocessing, augmentation, and model training.
