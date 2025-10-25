@@ -86,7 +86,6 @@ python classification.py --image your_image.jpg --model your_model_id/1
 * Expand dataset with higher-resolution waste samples
 * Integrate semantic search with vector embeddings
 * Enhance model robustness with *hard negative samples*
-* Deploy inference as a RESTful microservice for platform use
 
 ---
 
