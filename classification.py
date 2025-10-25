@@ -23,15 +23,14 @@ result = CLIENT.infer(image_path, model_id="construction_waste_classification-2v
 # Extract predictions
 predictions = result.get("predictions", [])
 
+
 if predictions:
     top_class = predictions[0]["class"]
     confidence = predictions[0]["confidence"]
 
-    print("Roboflow result:", top_class, "Confidence:", confidence)
+    print(f"Roboflow result: {top_class} (Confidence: {confidence})")
 
     if confidence < 0.6 or top_class not in known_categories:
         print("Unrecognized")
-    else:
-        print("Result is within predefined categories and confidence is sufficient.")
 else:
     print("No category recognized")
